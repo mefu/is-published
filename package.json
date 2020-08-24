@@ -1,0 +1,27 @@
+{
+  "name": "is-published",
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "is-published": "bin/is-published.js"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "libnpmconfig": "1.2.1",
+    "npm-registry-fetch": "8.1.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.11.4",
+    "@babel/preset-env": "7.11.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "babel src -d lib -w"
+  }
+}
