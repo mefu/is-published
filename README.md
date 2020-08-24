@@ -1,9 +1,8 @@
 # is-published
 
-Used for checking if a specific version of a package is already published or
-not. You can use this, for example, in a CI pipeline to check if currently
-committed version in `package.json` is published or not, and publish if it is
-not.
+Checks if a specific version of a package is already published or not. You can
+use this, for example, in a CI pipeline to check if currently committed version
+in `package.json` is published or not, and publish if it is not.
 
 ## Usage
 
@@ -29,10 +28,10 @@ import { isPublished } from 'is-published';
 isPublished({
     name: 'webpack',
     version: '5.0.0'
-}).then(published =>
+}).then(published => {
     if (published) console.log("Finally!");
     else console.log("Still waiting...");
-).catch(err =>
+}).catch(err => {
     // error connecting to registry or authentication or something like that
-);
+});
 ```
