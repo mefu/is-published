@@ -1,10 +1,10 @@
 {
   "name": "is-published",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/mefu/is-published.git"
+    "type": "git",
+    "url": "https://github.com/mefu/is-published.git"
   },
   "main": "lib/index.js",
   "files": [
