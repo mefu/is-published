@@ -17,12 +17,12 @@
   "sideEffects": false,
   "dependencies": {
     "libnpmconfig": "1.2.1",
-    "npm-registry-fetch": "8.1.4"
+    "npm-registry-fetch": "11.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.10.5",
-    "@babel/core": "7.11.4",
-    "@babel/preset-env": "7.11.0"
+    "@babel/cli": "7.15.7",
+    "@babel/core": "7.15.5",
+    "@babel/preset-env": "7.15.6"
   },
   "scripts": {
     "build": "babel src -d lib",
